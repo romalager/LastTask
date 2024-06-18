@@ -11,3 +11,6 @@ foreach (string item in stringg)
         outputStr[outputStr.Length - 1] = item;
     }
 }
+
+Console.WriteLine("[" + string.Join(", ", stringg) + "]");
+Console.Write("=> [" + string.Join(", ", outputStr) + "]");
