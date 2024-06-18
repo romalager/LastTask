@@ -1,0 +1,15 @@
+C:\Coding\C#\LastTask\bin\Debug\net6.0\LastTask.exe
+C:\Coding\C#\LastTask\bin\Debug\net6.0\LastTask.deps.json
+C:\Coding\C#\LastTask\bin\Debug\net6.0\LastTask.runtimeconfig.json
+C:\Coding\C#\LastTask\bin\Debug\net6.0\LastTask.dll
+C:\Coding\C#\LastTask\bin\Debug\net6.0\LastTask.pdb
+C:\Coding\C#\LastTask\obj\Debug\net6.0\LastTask.csproj.AssemblyReference.cache
+C:\Coding\C#\LastTask\obj\Debug\net6.0\LastTask.GeneratedMSBuildEditorConfig.editorconfig
+C:\Coding\C#\LastTask\obj\Debug\net6.0\LastTask.AssemblyInfoInputs.cache
+C:\Coding\C#\LastTask\obj\Debug\net6.0\LastTask.AssemblyInfo.cs
+C:\Coding\C#\LastTask\obj\Debug\net6.0\LastTask.csproj.CoreCompileInputs.cache
+C:\Coding\C#\LastTask\obj\Debug\net6.0\LastTask.dll
+C:\Coding\C#\LastTask\obj\Debug\net6.0\refint\LastTask.dll
+C:\Coding\C#\LastTask\obj\Debug\net6.0\LastTask.pdb
+C:\Coding\C#\LastTask\obj\Debug\net6.0\LastTask.genruntimeconfig.cache
+C:\Coding\C#\LastTask\obj\Debug\net6.0\ref\LastTask.dll
