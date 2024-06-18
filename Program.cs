@@ -3,12 +3,17 @@
 // string[] stringg = {"esc", "tab", "caps lock", "shift", "ctrl", "fn"};
 string[] stringg = new string[0];
 string temp = "trident";
-Console.Write("Enter strings (empty - '', to stop): ");
-while (temp != "")
+Console.WriteLine("Enter strings (empty - '', to stop): ");
+while (true)
 {
+#pragma warning disable CS8600, CS8601 // Преобразование литерала, допускающего значение NULL или возможного значения NULL в тип, не допускающий значение NULL.
     temp = Console.ReadLine();
-    Array.Resize(ref stringg, stringg.Length + 1);
-    stringg[stringg.Length - 1] = temp;
+    if (temp != "")
+    {
+        Array.Resize(ref stringg, stringg.Length + 1);
+        stringg[stringg.Length - 1] = temp;
+    }
+    else break;
 }
 
 
