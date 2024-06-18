@@ -26,3 +26,5 @@ Program filters an array of strings based on their length. It prompts the user t
 
 4. ### Input string printed to terminal (*31*)
 5. ### Output string printed to terminal (*32*)
+
+##### By Roman Muravlev (Vinramis)
