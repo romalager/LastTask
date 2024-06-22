@@ -1,12 +1,11 @@
 ﻿// Задача: Написать программу, которая из имеющегося массива строк формирует новый массив из строк, длина которых меньше, либо равна 3 символам. Первоначальный массив можно ввести с клавиатуры, либо задать на старте выполнения алгоритма. При решении не рекомендуется пользоваться коллекциями, лучше обойтись исключительно массивами.
 
 // string[] stringg = {"esc", "tab", "caps lock", "shift", "ctrl", "fn"};
-string[] stringg = new string[0];
-string temp = "trident";
+string?[] stringg = new string[0];
+string? temp = "trident";
 Console.WriteLine("Enter strings (empty - '', to stop): ");
 while (true)
 {
-#pragma warning disable CS8600, CS8601 // Преобразование литерала, допускающего значение NULL или возможного значения NULL в тип, не допускающий значение NULL.
     temp = Console.ReadLine();
     if (temp != "")
     {
@@ -19,9 +18,9 @@ while (true)
 
 string[] outputStr = new string[0];
 
-foreach (string item in stringg)
+foreach (string? item in stringg)
 {
-    if (item.Length < 4)
+    if (item?.Length < 4)
     {
         Array.Resize(ref outputStr, outputStr.Length + 1);
         outputStr[outputStr.Length - 1] = item;
